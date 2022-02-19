@@ -1,0 +1,1 @@
+export default ({ siteData, options }) => { siteData.themeConfig.sidebar = {"/blog/":[{"title":"Blog","collapsable":false,"sidebarDepth":1,"children":["关于Js中创建二维数组的坑","前端项目开发总结：电商后台管理系统","对JavaScript事件循环机制的理解","树——哈夫曼编译码"]}]} }

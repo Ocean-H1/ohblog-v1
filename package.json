@@ -1,0 +1,25 @@
+{
+  "name": "ohblog",
+  "version": "1.0.0",
+  "description": "博客部署第一次测试",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Ocean0128/Ohblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-ribbon-animation": "^1.1.3",
+    "vuepress-plugin-sakura": "^1.1.0"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}
