@@ -1,12 +1,16 @@
+// 不要忘了安装 moment
+const moment = require('moment')
+
 module.exports = {
+    base: '/ohblog/',
     theme: 'reco',
     title: '欧呀Ocean Space',
     description: 'Ocean的博客，一个致力于将自己的收获和经验分享给大家的个人博客网站',
     head: [
         // 移动端优化
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-        ['meta',{name: 'Keywords',content: 'Ocean的博客,Web前端,笔记,日常,项目,vue,javascript,程序员'}],
-        ['link',{rel:'icon',href: '/assets/img/favicon.ico'}]
+        ['meta', { name: 'Keywords', content: 'Ocean的博客,Web前端,笔记,日常,项目,vue,javascript,程序员' }],
+        ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
     ],
     themeConfig: {
         lastUpdated: '更新时间',
@@ -120,6 +124,12 @@ module.exports = {
             },
             "ribbonShow": false, //  点击彩带  true显示  false为不显示
             "ribbonAnimationShow": true  // 滑动彩带
+        },
+        "@vuepress/last-updated": {
+            transformer: (timestamp, lang) => {
+                moment.locale("zh-cn")
+                return moment(timestamp).fromNow("LLLL")
+            }
         },
     },
 }
