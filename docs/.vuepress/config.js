@@ -10,7 +10,7 @@ module.exports = {
         // 移动端优化
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'Keywords', content: 'Ocean的博客,Web前端,笔记,日常,项目,vue,javascript,程序员' }],
-        ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -142,10 +142,10 @@ module.exports = {
         },
         // pwa
         "@vuepress/pwa": {
-            serviceWorker: true,
-            updatePopup: {
-                message: "发现新内容可用！",
-                buttonText: "刷新"
+            "serviceWorker": true,
+            "updatePopup": {
+                "message": "发现新内容可用！",
+                "buttonText": "刷新"
             }
         },
     },
