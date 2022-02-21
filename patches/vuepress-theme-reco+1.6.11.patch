@@ -1,8 +1,8 @@
 diff --git a/node_modules/vuepress-theme-reco/components/NoteAbstractItem.vue b/node_modules/vuepress-theme-reco/components/NoteAbstractItem.vue
-index 1fc00ec..1ba672f 100644
+index 1fc00ec..b6f9c79 100644
 --- a/node_modules/vuepress-theme-reco/components/NoteAbstractItem.vue
 +++ b/node_modules/vuepress-theme-reco/components/NoteAbstractItem.vue
-@@ -2,91 +2,167 @@
+@@ -2,91 +2,166 @@
    <div
      class="abstract-item"
      @click="$router.push(item.path)">
@@ -245,7 +245,6 @@ index 1fc00ec..1ba672f 100644
 +
 +
  </style>
-+
 diff --git a/node_modules/vuepress-theme-reco/components/PageInfo.vue b/node_modules/vuepress-theme-reco/components/PageInfo.vue
 index d28c32b..461cede 100644
 --- a/node_modules/vuepress-theme-reco/components/PageInfo.vue

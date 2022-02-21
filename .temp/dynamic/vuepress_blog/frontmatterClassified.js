@@ -3,23 +3,6 @@
  */
 export default {
   "tags": {
-    "javascript": {
-      "key": "javascript",
-      "scope": "tags",
-      "path": "/tag/javascript/",
-      "pageKeys": [
-        "v-503ccbb9",
-        "v-e19f586c"
-      ]
-    },
-    "数据结构": {
-      "key": "数据结构",
-      "scope": "tags",
-      "path": "/tag/数据结构/",
-      "pageKeys": [
-        "v-3036352a"
-      ]
-    },
     "vue": {
       "key": "vue",
       "scope": "tags",
@@ -43,9 +26,34 @@ export default {
       "pageKeys": [
         "v-34324faf"
       ]
+    },
+    "javascript": {
+      "key": "javascript",
+      "scope": "tags",
+      "path": "/tag/javascript/",
+      "pageKeys": [
+        "v-503ccbb9",
+        "v-e19f586c"
+      ]
+    },
+    "数据结构": {
+      "key": "数据结构",
+      "scope": "tags",
+      "path": "/tag/数据结构/",
+      "pageKeys": [
+        "v-3036352a"
+      ]
     }
   },
   "categories": {
+    "项目总结": {
+      "key": "项目总结",
+      "scope": "categories",
+      "path": "/categories/项目总结/",
+      "pageKeys": [
+        "v-34324faf"
+      ]
+    },
     "前端": {
       "key": "前端",
       "scope": "categories",
@@ -61,14 +69,6 @@ export default {
       "path": "/categories/数据结构与算法/",
       "pageKeys": [
         "v-3036352a"
-      ]
-    },
-    "项目总结": {
-      "key": "项目总结",
-      "scope": "categories",
-      "path": "/categories/项目总结/",
-      "pageKeys": [
-        "v-34324faf"
       ]
     }
   },

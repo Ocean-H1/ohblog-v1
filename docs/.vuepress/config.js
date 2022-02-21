@@ -39,7 +39,7 @@ module.exports = {
                 ]
             },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-            { text: '留言板', link: '', icon: 'reco-suggestion' },
+            { text: '留言板', link: '/messageboard', icon: 'reco-suggestion' },
             {
                 text: '关于我', link: '/about',
                 items: [
@@ -88,6 +88,10 @@ module.exports = {
                 { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
             ]
         },
+        valineConfig: {
+            appId: 'yprqoscNLWDhwTE2viGYftnM-gzGzoHsz',// your appId
+            appKey: 'fIzmGL2NpNec5Hwe7Ck70sXM', // your appKey
+        }
     },
     // 插件
     plugins: {
@@ -148,5 +152,17 @@ module.exports = {
                 "buttonText": "刷新"
             }
         },
+        // "@vssue/vuepress-plugin-vssue": {
+        //     // 设置 `platform` 而不是 `api`
+        //     platform: 'gitee',
+        //     // 其他的 Vssue 配置
+        //     owner: 'ocean0128',
+        //     repo: 'ohblog',
+        //     clientId: '69d337fa1d4ed73dc8e3a58eb1bfc5c3a8843d148423e9e8cc32da6bbd033f5c',
+        //     clientSecret: '05fbe6e1c29b996f3d8dfcdac236a0fb5fe17f7e7fb7e1688da9bf5873cd2e23',
+        //     autoCreateIssue: true
+        //   },
+
+
     },
 }
