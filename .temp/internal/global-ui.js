@@ -2,5 +2,6 @@ export default [
   "BackToTop",
   "Sakura",
   "Ribbon",
-  "RibbonAnimation"
+  "RibbonAnimation",
+  "SWUpdatePopup"
 ]

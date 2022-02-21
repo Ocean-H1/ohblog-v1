@@ -5,12 +5,20 @@ module.exports = {
     base: '/ohblog/',
     theme: 'reco',
     title: '欧呀Ocean Space',
-    description: 'Ocean的博客，一个致力于将自己的收获和经验分享给大家的个人博客网站',
+    description: 'Ocean的博客，一个致力于将自己的收获和经验分享给大家的个人网站',
     head: [
         // 移动端优化
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'Keywords', content: 'Ocean的博客,Web前端,笔记,日常,项目,vue,javascript,程序员' }],
         ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
+        ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     themeConfig: {
         lastUpdated: '更新时间',
@@ -125,10 +133,19 @@ module.exports = {
             "ribbonShow": false, //  点击彩带  true显示  false为不显示
             "ribbonAnimationShow": true  // 滑动彩带
         },
+        // 最后更新时间
         "@vuepress/last-updated": {
             transformer: (timestamp, lang) => {
                 moment.locale("zh-cn")
                 return moment(timestamp).fromNow("LLLL")
+            }
+        },
+        // pwa
+        "@vuepress/pwa": {
+            serviceWorker: true,
+            updatePopup: {
+                message: "发现新内容可用！",
+                buttonText: "刷新"
             }
         },
     },
