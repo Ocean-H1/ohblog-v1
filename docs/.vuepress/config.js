@@ -137,7 +137,7 @@ module.exports = {
         "@vuepress/last-updated": {
             transformer: (timestamp, lang) => {
                 moment.locale("zh-cn")
-                return moment(timestamp).fromNow("LLLL")
+                return moment(timestamp).format("YYYY-MM-DD HH:mm:ss");
             }
         },
         // pwa

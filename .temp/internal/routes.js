@@ -9,18 +9,6 @@ import GlobalLayout from "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress\\core\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-63a96fe4",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-63a96fe4").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-503ccbb9",
     path: "/blog/%E5%85%B3%E4%BA%8EJs%E4%B8%AD%E5%88%9B%E5%BB%BA%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%9D%91.html",
     component: GlobalLayout,
@@ -37,20 +25,16 @@ export const routes = [
     redirect: "/blog/%E5%85%B3%E4%BA%8EJs%E4%B8%AD%E5%88%9B%E5%BB%BA%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%9D%91.html"
   },
   {
-    name: "v-e19f586c",
-    path: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html",
+    name: "v-63a96fe4",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e19f586c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-63a96fe4").then(next)
     },
   },
   {
-    path: "/blog/对JavaScript事件循环机制的理解.html",
-    redirect: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html"
-  },
-  {
-    path: "/blog/对JavaScript事件循环机制的理解.html",
-    redirect: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-3036352a",
@@ -67,6 +51,22 @@ export const routes = [
   {
     path: "/blog/树——哈夫曼编译码.html",
     redirect: "/blog/%E6%A0%91%E2%80%94%E2%80%94%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E8%AF%91%E7%A0%81.html"
+  },
+  {
+    name: "v-e19f586c",
+    path: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e19f586c").then(next)
+    },
+  },
+  {
+    path: "/blog/对JavaScript事件循环机制的理解.html",
+    redirect: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html"
+  },
+  {
+    path: "/blog/对JavaScript事件循环机制的理解.html",
+    redirect: "/blog/%E5%AF%B9JavaScript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF%E6%9C%BA%E5%88%B6%E7%9A%84%E7%90%86%E8%A7%A3.html"
   },
   {
     name: "v-34324faf",

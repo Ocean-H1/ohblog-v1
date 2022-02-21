@@ -87,21 +87,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Ocean's Blog",
-        "tagline": "Tech Otakus Save The World"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-63a96fe4",
-      "path": "/",
-      "lastUpdated": "2 天",
-      "lastUpdatedTimestamp": 1645302674000,
-      "createdTime": 1645302674000
-    },
-    {
       "title": "js中创建二维数组的坑",
       "frontmatter": {
         "title": "js中创建二维数组的坑",
@@ -124,8 +109,43 @@ export const siteData = {
           "slug": "遇到问题的方法"
         }
       ],
-      "lastUpdated": "2 天",
+      "lastUpdated": "2022-02-20 04:31:14",
       "lastUpdatedTimestamp": 1645302674000,
+      "createdTime": 1645302674000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "Ocean's Blog",
+        "tagline": "Tech Otakus Save The World"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-63a96fe4",
+      "path": "/",
+      "lastUpdated": "2022-02-20 04:31:14",
+      "lastUpdatedTimestamp": 1645302674000,
+      "createdTime": 1645302674000
+    },
+    {
+      "title": "哈夫曼编译码",
+      "frontmatter": {
+        "title": "哈夫曼编译码",
+        "categories": [
+          "数据结构与算法"
+        ],
+        "tags": [
+          "数据结构"
+        ],
+        "date": "2022-2-19"
+      },
+      "regularPath": "/blog/%E6%A0%91%E2%80%94%E2%80%94%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E8%AF%91%E7%A0%81.html",
+      "relativePath": "blog/树——哈夫曼编译码.md",
+      "key": "v-3036352a",
+      "path": "/blog/%E6%A0%91%E2%80%94%E2%80%94%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E8%AF%91%E7%A0%81.html",
+      "lastUpdated": "2022-02-22 00:13:45",
+      "lastUpdatedTimestamp": 1645460025000,
       "createdTime": 1645302674000
     },
     {
@@ -167,28 +187,8 @@ export const siteData = {
           "slug": "四、-强大的异步专家-process-nexttick"
         }
       ],
-      "lastUpdated": "2 天",
+      "lastUpdated": "2022-02-20 04:31:14",
       "lastUpdatedTimestamp": 1645302674000,
-      "createdTime": 1645302674000
-    },
-    {
-      "title": "哈夫曼编译码",
-      "frontmatter": {
-        "title": "哈夫曼编译码",
-        "categories": [
-          "数据结构与算法"
-        ],
-        "tags": [
-          "数据结构"
-        ],
-        "date": "2022-2-19"
-      },
-      "regularPath": "/blog/%E6%A0%91%E2%80%94%E2%80%94%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E8%AF%91%E7%A0%81.html",
-      "relativePath": "blog/树——哈夫曼编译码.md",
-      "key": "v-3036352a",
-      "path": "/blog/%E6%A0%91%E2%80%94%E2%80%94%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E8%AF%91%E7%A0%81.html",
-      "lastUpdated": "1 小时",
-      "lastUpdatedTimestamp": 1645460025000,
       "createdTime": 1645302674000
     },
     {
@@ -276,7 +276,7 @@ export const siteData = {
           "slug": "_2-10-数据统计"
         }
       ],
-      "lastUpdated": "2 天",
+      "lastUpdated": "2022-02-20 04:31:14",
       "lastUpdatedTimestamp": 1645302674000,
       "createdTime": 1645302674000
     },
