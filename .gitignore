@@ -1,3 +1,7 @@
+# 敏感信息
+secret.js
+# 博客
+docs/blog/
 # Logs
 logs
 *.log

@@ -1,15 +1,14 @@
 // 不要忘了安装 moment
 const moment = require('moment')
-
+const {valineConfig} = require('../../secret')
 module.exports = {
-    base: '/ohblog/',
     theme: 'reco',
-    title: '欧呀Ocean Space',
-    description: 'Ocean的博客，一个致力于将自己的收获和经验分享给大家的个人网站',
+    title: '南山以南',
+    description: '把希望全都寄托于别人是最危险的行为',
     head: [
         // 移动端优化
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-        ['meta', { name: 'Keywords', content: 'Ocean的博客,Web前端,笔记,日常,项目,vue,javascript,程序员' }],
+        ['meta', { name: 'Keywords', content: 'Ocean的个人博客,Web前端,笔记,日常,项目,vue,javascript,程序员,数据结构与算法' }],
         ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -18,12 +17,19 @@ module.exports = {
         ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
         ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
         ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+        ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }]
     ],
     themeConfig: {
+        // subSidebar: 'auto',
         lastUpdated: '更新时间',
         logo: '/assets/img/logo.png',
         type: 'blog',
+        // 备案
+        record: '陕ICP备2022001580号-1',
+        recordLink: 'https://beian.miit.gov.cn',
+        // 项目开始时间，只填写年份
+        startYear: '2022',
         // 顶部导航栏
         nav: [
             { text: '首页', link: '/', icon: 'reco-home' },
@@ -31,15 +37,15 @@ module.exports = {
                 text: '项目',
                 items: [
                     {
-                        text: '电商后台管理系统', link: '',
+                        text: '电商后台管理系统', link: '/',
                     },
                     {
-                        text: '客运售票网站', link: ''
+                        text: '客运售票伪系统', link: 'http://station.oceanh.top',
                     }
                 ]
             },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-            { text: '留言板', link: '/messageboard', icon: 'reco-suggestion' },
+            { text: '留言板', link: '/messageboard/', icon: 'reco-suggestion' },
             {
                 text: '关于我', link: '/about',
                 items: [
@@ -56,21 +62,9 @@ module.exports = {
         // 设置昵称
         author: "OceanH",
         // 设置首页右侧信息栏头像
-        authorAvatar: '/assets/img/avatar.png',
+        authorAvatar: '/assets/img/avatar.gif',
         // 友情链接
         friendLink: [
-            {
-                title: 'vuepress-theme-reco',
-                desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-                logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-                link: 'https://vuepress-theme-reco.recoluan.com'
-            },
-            {
-                title: '午后南杂',
-                desc: 'Enjoy when you can, and endure when you must.',
-                email: 'recoluan@qq.com',
-                link: 'https://www.recoluan.com'
-            },
             // ...
         ],
         // 博客设置
@@ -84,29 +78,42 @@ module.exports = {
                 text: '标签',      // 默认文案 “标签”
             },
             socialLinks: [     // 信息栏展示社交信息
-                { icon: 'reco-github', link: 'https://github.com/recoluan' },
-                { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+                {
+                    icon: 'reco-mayun',link:'https://gitee.com/Ocean0128'
+                },
+                {
+                    icon:'reco-github',link:'https://github.com/Ocean-H1'
+                }
             ]
         },
-        valineConfig: {
-            appId: 'yprqoscNLWDhwTE2viGYftnM-gzGzoHsz',// your appId
-            appKey: 'fIzmGL2NpNec5Hwe7Ck70sXM', // your appKey
-        }
+        // 评论
+        valineConfig: valineConfig,
     },
     // 插件
     plugins: {
-        // 自动生成侧边栏
-        "vuepress-plugin-auto-sidebar": {},
-        // 樱花(可以改其他图片)插件
-        "sakura": {
-            "num": 15,  // 默认数量
-            "show": true, //  是否显示
-            "zIndex": -1,   // 层级
-            "img": {
-                "replace": false,  // false 默认图 true 换图 需要填写httpUrl地址
-                "httpUrl": '...'     // 绝对路径
-            }
+        // 分页插件
+        '@vuepress-reco/vuepress-plugin-pagation': {
+            perPage: 8,
         },
+        // 页面第一次载入的动画插件
+        "@vuepress-reco/vuepress-plugin-loading-page": {},
+        // 自动生成侧边栏
+        "vuepress-plugin-auto-sidebar": {
+            sidebarDepth: 2,
+            collapse: {
+                open: true,
+            },
+        },
+        // 樱花(可以改其他图片)插件
+        // "sakura": {
+        //     "num": 15,  // 默认数量
+        //     "show": true, //  是否显示
+        //     "zIndex": -1,   // 层级
+        //     "img": {
+        //         "replace": false,  // false 默认图 true 换图 需要填写httpUrl地址
+        //         "httpUrl": '...'     // 绝对路径
+        //     }
+        // },
         // 彩带插件
         "ribbon-animation": {
             "size": 90,   // 默认数据
@@ -152,8 +159,85 @@ module.exports = {
                 "buttonText": "刷新"
             }
         },
-        
+        // 中文目录转换为音译链接
+        "permalink-pinyin": {
+            lowercase: true,
+            separator: "-",
+        },
+        // bgm插件
+        "meting": {
+            meting: {
+                auto: 'https://music.163.com/#/playlist?id=7324368135', //歌单地址
+                server: "netease", // netease:网易云，tencent:qq音乐，xiami:虾米音乐
+                type: "palylist",
+                mid: "7324368135",//歌单或音乐id
+            },
+            aplayer: {
+                autoplay: true,
+                mini: true,
+                theme: '#282c34',
+                order: 'random',
+                volume: 0.15
+            },
+            mobile: {
+                cover: false,
+                lrc: false,
+            },
 
+        },
+        // 鼠标点击特效插件
+        "cursor-effects": {
+            size: 2,
+            shape: 'star',
+            zIndex: 999999999
+        },
+        // 复制代码的插件
+        "vuepress-plugin-nuggets-style-copy": {
+            copyText: "复制代码",
+            tip: {
+                content: "生命不息，CV不止！"
+            }
+        },
+        // 公告插件
+        '@vuepress-reco/vuepress-plugin-bulletin-popover': {
+            title: '公告',
+            body: [
+                {
+                    type: 'title',
+                    content: '欢迎加我的QQ/Vx一起交流学习 🎉🎉',
+                    style: 'text-aligin: center;',
+                },
+                {
+                    type: 'text',
+                    content: 'QQ：1404939185',
+                    style: 'text-align: center;'
+                },
+                {
+                    type: 'text',
+                    content: 'VX:',
+                    style: 'text-align: center;'
+                },
+                {
+                    type: 'image',
+                    src: '/assets/img/weChat.jpg',
+                },
+                {
+                    type: 'text',
+                    content: '友链或疑问均可在留言板给我留言',
+                    style: 'text-align: center;'
+                }
+            ],
+            footer: [
+                {
+                    type: 'button',
+                    text: '留言',
+                    link: '/messageboard/'
+                }
+            ]
 
+        }
+    },
+    markdown: {
+        lineNumbers: true
     },
 }

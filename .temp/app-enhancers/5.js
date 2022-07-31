@@ -1,2 +1,1 @@
-import "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
-export default {}
+export { default } from "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\classification.js"

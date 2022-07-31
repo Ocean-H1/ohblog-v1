@@ -3,28 +3,12 @@
  */
 export default {
   "tags": {
-    "vue": {
-      "key": "vue",
+    "css": {
+      "key": "css",
       "scope": "tags",
-      "path": "/tag/vue/",
+      "path": "/tag/css/",
       "pageKeys": [
-        "v-34324faf"
-      ]
-    },
-    "element-ui": {
-      "key": "element-ui",
-      "scope": "tags",
-      "path": "/tag/element-ui/",
-      "pageKeys": [
-        "v-34324faf"
-      ]
-    },
-    "node": {
-      "key": "node",
-      "scope": "tags",
-      "path": "/tag/node/",
-      "pageKeys": [
-        "v-34324faf"
+        "v-4f6fde81"
       ]
     },
     "javascript": {
@@ -32,8 +16,97 @@ export default {
       "scope": "tags",
       "path": "/tag/javascript/",
       "pageKeys": [
-        "v-503ccbb9",
-        "v-e19f586c"
+        "v-3e49f5d6",
+        "v-5d0b11c8",
+        "v-6e12389a",
+        "v-d51a797a",
+        "v-4f0060dc",
+        "v-18a6d9ca",
+        "v-2de494a9",
+        "v-3c78f68a",
+        "v-67ff6264"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-5929af1e",
+        "v-6d1e11e6",
+        "v-f01b7d46",
+        "v-3ce05c0d",
+        "v-20109c45",
+        "v-ed6c73f2"
+      ]
+    },
+    "浏览器": {
+      "key": "浏览器",
+      "scope": "tags",
+      "path": "/tag/浏览器/",
+      "pageKeys": [
+        "v-3c78f68a"
+      ]
+    },
+    "typescript": {
+      "key": "typescript",
+      "scope": "tags",
+      "path": "/tag/typescript/",
+      "pageKeys": [
+        "v-7c6e985c"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-7c6e985c",
+        "v-a9d9a074",
+        "v-05534345",
+        "v-67ace53a"
+      ]
+    },
+    "vuex": {
+      "key": "vuex",
+      "scope": "tags",
+      "path": "/tag/vuex/",
+      "pageKeys": [
+        "v-34252590"
+      ]
+    },
+    "vue-router": {
+      "key": "vue-router",
+      "scope": "tags",
+      "path": "/tag/vue-router/",
+      "pageKeys": [
+        "v-0961b9a6",
+        "v-5954500f",
+        "v-166bcf03"
+      ]
+    },
+    "element-ui": {
+      "key": "element-ui",
+      "scope": "tags",
+      "path": "/tag/element-ui/",
+      "pageKeys": [
+        "v-67ace53a"
+      ]
+    },
+    "node": {
+      "key": "node",
+      "scope": "tags",
+      "path": "/tag/node/",
+      "pageKeys": [
+        "v-67ace53a"
+      ]
+    },
+    "队列": {
+      "key": "队列",
+      "scope": "tags",
+      "path": "/tag/队列/",
+      "pageKeys": [
+        "v-39d567aa"
       ]
     },
     "数据结构": {
@@ -41,34 +114,133 @@ export default {
       "scope": "tags",
       "path": "/tag/数据结构/",
       "pageKeys": [
-        "v-3036352a"
+        "v-a54858b2"
+      ]
+    },
+    "字符串": {
+      "key": "字符串",
+      "scope": "tags",
+      "path": "/tag/字符串/",
+      "pageKeys": [
+        "v-4dbb11d4",
+        "v-28c35f73"
+      ]
+    },
+    "栈": {
+      "key": "栈",
+      "scope": "tags",
+      "path": "/tag/栈/",
+      "pageKeys": [
+        "v-584592a9"
       ]
     }
   },
   "categories": {
-    "项目总结": {
-      "key": "项目总结",
+    "Html & Css & Js": {
+      "key": "Html & Css & Js",
       "scope": "categories",
-      "path": "/categories/项目总结/",
+      "path": "/categories/Html & Css & Js/",
       "pageKeys": [
-        "v-34324faf"
+        "v-4f6fde81",
+        "v-3e49f5d6",
+        "v-5d0b11c8",
+        "v-673726b3",
+        "v-6e12389a",
+        "v-43f1f125",
+        "v-d51a797a",
+        "v-4f0060dc",
+        "v-18a6d9ca",
+        "v-2de494a9",
+        "v-3c78f68a"
       ]
     },
-    "前端": {
-      "key": "前端",
+    "Vue": {
+      "key": "Vue",
       "scope": "categories",
-      "path": "/categories/前端/",
+      "path": "/categories/Vue/",
       "pageKeys": [
-        "v-503ccbb9",
-        "v-e19f586c"
+        "v-5929af1e",
+        "v-7c6e985c",
+        "v-6d1e11e6",
+        "v-67ff6264",
+        "v-3ce05c0d",
+        "v-ed6c73f2"
       ]
     },
-    "数据结构与算法": {
-      "key": "数据结构与算法",
+    "Vue项目总结": {
+      "key": "Vue项目总结",
       "scope": "categories",
-      "path": "/categories/数据结构与算法/",
+      "path": "/categories/Vue项目总结/",
       "pageKeys": [
-        "v-3036352a"
+        "v-a9d9a074",
+        "v-34252590",
+        "v-0961b9a6",
+        "v-5954500f",
+        "v-05534345",
+        "v-166bcf03",
+        "v-67ace53a"
+      ]
+    },
+    "数据结构": {
+      "key": "数据结构",
+      "scope": "categories",
+      "path": "/categories/数据结构/",
+      "pageKeys": [
+        "v-39d567aa",
+        "v-a54858b2"
+      ]
+    },
+    "算法": {
+      "key": "算法",
+      "scope": "categories",
+      "path": "/categories/算法/",
+      "pageKeys": [
+        "v-671991b6",
+        "v-e7211454",
+        "v-4af82604",
+        "v-5ef4f47c",
+        "v-73148af0",
+        "v-5270100f",
+        "v-79a918d8",
+        "v-4c37213e",
+        "v-ebce8776",
+        "v-66aa8114",
+        "v-71d5db69",
+        "v-85648252",
+        "v-7ba85492",
+        "v-0a1a8614",
+        "v-70160a9a",
+        "v-1ee16276",
+        "v-a54e1fd2",
+        "v-608f4121",
+        "v-63744e99",
+        "v-3a8246bd",
+        "v-4308e91c",
+        "v-ca1cd68a",
+        "v-856460f4",
+        "v-59820d74",
+        "v-4feab1f3",
+        "v-b4e47eec",
+        "v-4cfd4fd2",
+        "v-25f379e0",
+        "v-48453ccf",
+        "v-4dbb11d4",
+        "v-584592a9",
+        "v-283a98e8",
+        "v-75005f83",
+        "v-6e10dc3b",
+        "v-1d37c27c",
+        "v-121af895",
+        "v-0828a95e",
+        "v-74714a2e",
+        "v-2e09eeaa",
+        "v-25b97714",
+        "v-6422ec2c",
+        "v-314d5cd4",
+        "v-2f55a787",
+        "v-faf9fb14",
+        "v-3f1a5e04",
+        "v-28c35f73"
       ]
     }
   },

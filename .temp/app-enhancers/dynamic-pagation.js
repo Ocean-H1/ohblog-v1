@@ -1,7 +1,7 @@
 export default ({ Vue }) => {
           Vue.mixin({
             computed: {
-              $perPage () { return 10 }
+              $perPage () { return 8 }
             }
           })
         }

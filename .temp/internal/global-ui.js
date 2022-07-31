@@ -1,7 +1,9 @@
 export default [
   "BackToTop",
-  "Sakura",
   "Ribbon",
   "RibbonAnimation",
-  "SWUpdatePopup"
+  "SWUpdatePopup",
+  "MetingGlobal",
+  "CursorEffects",
+  "Bulletin"
 ]

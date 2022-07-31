@@ -1,1 +1,2 @@
-export { default } from "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress-reco\\vuepress-plugin-comments\\bin\\enhanceAppFile.js"
+import "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
+export default {}

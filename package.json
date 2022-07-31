@@ -1,7 +1,7 @@
 {
   "name": "ohblog",
   "version": "1.0.0",
-  "description": "博客部署第一次测试",
+  "description": "个人博客",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
@@ -19,11 +19,17 @@
     "patch-package": "^6.4.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-cursor-effects": "^1.1.2",
+    "vuepress-plugin-meting": "^0.3.1",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
     "vuepress-plugin-ribbon-animation": "^1.1.3",
     "vuepress-plugin-sakura": "^1.1.0"
   },
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
     "moment": "^2.29.1",
-    "vuepress-theme-reco": "^1.6.11"
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-theme-reco": "1.6.10"
   }
 }

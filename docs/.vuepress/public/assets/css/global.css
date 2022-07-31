@@ -1,0 +1,24 @@
+/* 添加格子背景 */
+#app .page {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.page {
+    padding-bottom: 2rem;
+    display: block;
+}
+/* 添加mac风格代码块 */
+pre::before {
+    content: " ";
+    border-radius: 50%;
+    background: #ff5f56;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 6px;
+    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    display: block;
+}
