@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Ocean's Blog
-tagline: 把希望全都寄托于别人是最危险的行为
+tagline: 目标是太阳,就不必留恋萤火之光
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',
@@ -10,7 +10,7 @@ tagline: 把希望全都寄托于别人是最危险的行为
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImage: https://www.zpzpup.com/assets/image/bj06.jpg
+bgImage: /assets/img/bg01.png
 # bgImageStyle: {
 #   height: '95vh'
 # }
@@ -57,6 +57,11 @@ bgImage: https://www.zpzpup.com/assets/image/bj06.jpg
   border-right: 3px solid #fff;
   border-top: 3px solid #fff;
   transform: rotate(135deg);
+}
+.hero {
+  color: #fff;
+  letter-spacing: 3px;
+
 }
 </style>
 

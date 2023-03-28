@@ -9,6 +9,78 @@ import GlobalLayout from "F:\\VueProgram\\Ohblog\\node_modules\\@vuepress\\core\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-4347f77d",
+    path: "/blog/html-css-js/iframekuang-jia-ji-qi-you-que-dian.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4347f77d").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/Iframe框架及其优缺点.html",
+    redirect: "/blog/html-css-js/iframekuang-jia-ji-qi-you-que-dian.html"
+  },
+  {
+    name: "v-22e9810e",
+    path: "/blog/html-css-js/csshe-mo-xing.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-22e9810e").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/CSS盒模型.html",
+    redirect: "/blog/html-css-js/csshe-mo-xing.html"
+  },
+  {
+    name: "v-53d0f484",
+    path: "/blog/html-css-js/ajaxjian-dan-shi-yong.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-53d0f484").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/Ajax简单使用.html",
+    redirect: "/blog/html-css-js/ajaxjian-dan-shi-yong.html"
+  },
+  {
+    name: "v-4e81c5dc",
+    path: "/blog/html-css-js/jsonpshi-xian-kua-yu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4e81c5dc").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/JSONP实现跨域.html",
+    redirect: "/blog/html-css-js/jsonpshi-xian-kua-yu.html"
+  },
+  {
+    name: "v-51143a6e",
+    path: "/blog/html-css-js/jsshi-jian-chu-li-de-san-ge-jie-duan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-51143a6e").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/JS事件处理的三个阶段.html",
+    redirect: "/blog/html-css-js/jsshi-jian-chu-li-de-san-ge-jie-duan.html"
+  },
+  {
+    name: "v-4f69a66e",
+    path: "/blog/html-css-js/jsmo-kuai-hua-dao-ru-dao-chu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f69a66e").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/Js模块化导入导出.html",
+    redirect: "/blog/html-css-js/jsmo-kuai-hua-dao-ru-dao-chu.html"
+  },
+  {
     name: "v-4f6fde81",
     path: "/blog/html-css-js/divshui-ping-chui-zhi-ju-zhong-de-duo-zhong-fang-shi.html",
     component: GlobalLayout,
@@ -19,6 +91,30 @@ export const routes = [
   {
     path: "/blog/Html & Css & Js/div水平垂直居中的多种方式.html",
     redirect: "/blog/html-css-js/divshui-ping-chui-zhi-ju-zhong-de-duo-zhong-fang-shi.html"
+  },
+  {
+    name: "v-44661547",
+    path: "/blog/html-css-js/1-2-3-.map-parseint-de-fan-hui-zhi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-44661547").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/['1','2','3'].map(parseInt)的返回值.html",
+    redirect: "/blog/html-css-js/1-2-3-.map-parseint-de-fan-hui-zhi.html"
+  },
+  {
+    name: "v-c896ea1c",
+    path: "/blog/html-css-js/newcao-zuo-fu-zuo-liao-shi-me.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c896ea1c").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/new操作符做了什么.html",
+    redirect: "/blog/html-css-js/newcao-zuo-fu-zuo-liao-shi-me.html"
   },
   {
     name: "v-3e49f5d6",
@@ -33,18 +129,6 @@ export const routes = [
     redirect: "/blog/html-css-js/jsshi-xian-md5jia-mi.html"
   },
   {
-    name: "v-5d0b11c8",
-    path: "/blog/html-css-js/shi-yong-array.applychu-shi-hua-shu-zu.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d0b11c8").then(next)
-    },
-  },
-  {
-    path: "/blog/Html & Css & Js/使用Array.apply初始化数组.html",
-    redirect: "/blog/html-css-js/shi-yong-array.applychu-shi-hua-shu-zu.html"
-  },
-  {
     name: "v-673726b3",
     path: "/blog/html-css-js/jsshi-xian-shen-kao-bei-de-chang-yong-fang-fa.html",
     component: GlobalLayout,
@@ -55,6 +139,66 @@ export const routes = [
   {
     path: "/blog/Html & Css & Js/js实现深拷贝的常用方法.html",
     redirect: "/blog/html-css-js/jsshi-xian-shen-kao-bei-de-chang-yong-fang-fa.html"
+  },
+  {
+    name: "v-610381d6",
+    path: "/blog/html-css-js/bu-she-zhi-cookieyou-xiao-qi-huo-zhe-she-zhi-wei-0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-610381d6").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/不设置cookie有效期或者设置为0.html",
+    redirect: "/blog/html-css-js/bu-she-zhi-cookieyou-xiao-qi-huo-zhe-she-zhi-wei-0.html"
+  },
+  {
+    name: "v-b9b8c5ba",
+    path: "/blog/html-css-js/yi-xing-cssshi-xian-wang-ye-hui-se-xiao-guo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b9b8c5ba").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/一行CSS实现网页灰色效果.html",
+    redirect: "/blog/html-css-js/yi-xing-cssshi-xian-wang-ye-hui-se-xiao-guo.html"
+  },
+  {
+    name: "v-5dda72a7",
+    path: "/blog/html-css-js/wei-lei-he-wei-yuan-su.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5dda72a7").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/伪类和伪元素.html",
+    redirect: "/blog/html-css-js/wei-lei-he-wei-yuan-su.html"
+  },
+  {
+    name: "v-534a9caf",
+    path: "/blog/html-css-js/shi-yong-new-fnhe-new-fn-de-xi-wei-chai-bie.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-534a9caf").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/使用new fn和new fn()的细微差别.html",
+    redirect: "/blog/html-css-js/shi-yong-new-fnhe-new-fn-de-xi-wei-chai-bie.html"
+  },
+  {
+    name: "v-5d0b11c8",
+    path: "/blog/html-css-js/shi-yong-array.applychu-shi-hua-shu-zu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d0b11c8").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/使用Array.apply初始化数组.html",
+    redirect: "/blog/html-css-js/shi-yong-array.applychu-shi-hua-shu-zu.html"
   },
   {
     name: "v-6e12389a",
@@ -69,16 +213,16 @@ export const routes = [
     redirect: "/blog/html-css-js/guan-yu-jszhong-chuang-jian-er-wei-shu-zu-de-keng.html"
   },
   {
-    name: "v-43f1f125",
-    path: "/blog/html-css-js/han-shu-ke-li-hua.html",
+    name: "v-93c90d2a",
+    path: "/blog/html-css-js/xie-yi-ge-pan-duan-shu-ju-lei-xing-de-fang-fa.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-43f1f125").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-93c90d2a").then(next)
     },
   },
   {
-    path: "/blog/Html & Css & Js/函数柯里化.html",
-    redirect: "/blog/html-css-js/han-shu-ke-li-hua.html"
+    path: "/blog/Html & Css & Js/写一个判断数据类型的方法.html",
+    redirect: "/blog/html-css-js/xie-yi-ge-pan-duan-shu-ju-lei-xing-de-fang-fa.html"
   },
   {
     name: "v-d51a797a",
@@ -93,16 +237,52 @@ export const routes = [
     redirect: "/blog/html-css-js/dui-javascriptshi-jian-xun-huan-ji-zhi-de-li-jie.html"
   },
   {
-    name: "v-4f0060dc",
-    path: "/blog/html-css-js/shou-xie-call-apply-bindfang-fa.html",
+    name: "v-43f1f125",
+    path: "/blog/html-css-js/han-shu-ke-li-hua.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4f0060dc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-43f1f125").then(next)
     },
   },
   {
-    path: "/blog/Html & Css & Js/手写call,apply,bind方法.html",
-    redirect: "/blog/html-css-js/shou-xie-call-apply-bindfang-fa.html"
+    path: "/blog/Html & Css & Js/函数柯里化.html",
+    redirect: "/blog/html-css-js/han-shu-ke-li-hua.html"
+  },
+  {
+    name: "v-4dc047d8",
+    path: "/blog/html-css-js/yuan-xing-he-yuan-xing-lian.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4dc047d8").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/原型和原型链.html",
+    redirect: "/blog/html-css-js/yuan-xing-he-yuan-xing-lian.html"
+  },
+  {
+    name: "v-c96f87e2",
+    path: "/blog/html-css-js/dao-zhi-ye-mian-jia-zai-bai-ping-shi-jian-chang-de-yuan-yin.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c96f87e2").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/导致页面加载白屏时间长的原因.html",
+    redirect: "/blog/html-css-js/dao-zhi-ye-mian-jia-zai-bai-ping-shi-jian-chang-de-yuan-yin.html"
+  },
+  {
+    name: "v-818bce0e",
+    path: "/blog/html-css-js/jiang-yi-ge-shu-zu-luan-xu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-818bce0e").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/将一个数组乱序.html",
+    redirect: "/blog/html-css-js/jiang-yi-ge-shu-zu-luan-xu.html"
   },
   {
     name: "v-18a6d9ca",
@@ -117,6 +297,18 @@ export const routes = [
     redirect: "/blog/html-css-js/shou-xie-promise.html"
   },
   {
+    name: "v-4f0060dc",
+    path: "/blog/html-css-js/shou-xie-call-apply-bindfang-fa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f0060dc").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/手写call,apply,bind方法.html",
+    redirect: "/blog/html-css-js/shou-xie-call-apply-bindfang-fa.html"
+  },
+  {
     name: "v-2de494a9",
     path: "/blog/html-css-js/shou-xie-jie-liu-he-fang-dou-han-shu.html",
     component: GlobalLayout,
@@ -129,16 +321,52 @@ export const routes = [
     redirect: "/blog/html-css-js/shou-xie-jie-liu-he-fang-dou-han-shu.html"
   },
   {
-    name: "v-5929af1e",
-    path: "/blog/vue/nprogressde-jian-dan-shi-yong.html",
+    name: "v-70e5e5de",
+    path: "/blog/html-css-js/shou-xie-instanceoffang-fa.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5929af1e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-70e5e5de").then(next)
     },
   },
   {
-    path: "/blog/Vue/NProgress的简单使用.html",
-    redirect: "/blog/vue/nprogressde-jian-dan-shi-yong.html"
+    path: "/blog/Html & Css & Js/手写instanceof方法.html",
+    redirect: "/blog/html-css-js/shou-xie-instanceoffang-fa.html"
+  },
+  {
+    name: "v-5ac00f29",
+    path: "/blog/html-css-js/shou-xie-lun-bo-tu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5ac00f29").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/手写轮播图.html",
+    redirect: "/blog/html-css-js/shou-xie-lun-bo-tu.html"
+  },
+  {
+    name: "v-acdad620",
+    path: "/blog/html-css-js/shu-zu-qu-chong-de-chang-yong-fang-fa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-acdad620").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/数组去重的常用方法.html",
+    redirect: "/blog/html-css-js/shu-zu-qu-chong-de-chang-yong-fang-fa.html"
+  },
+  {
+    name: "v-7a9adcbc",
+    path: "/blog/html-css-js/shu-zu-he-bing-de-chang-yong-fang-fa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a9adcbc").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/数组合并的常用方法.html",
+    redirect: "/blog/html-css-js/shu-zu-he-bing-de-chang-yong-fang-fa.html"
   },
   {
     name: "v-3c78f68a",
@@ -153,16 +381,160 @@ export const routes = [
     redirect: "/blog/html-css-js/qian-xi-google-v8yin-qing-de-ji-ben-gong-zuo-yuan-li.html"
   },
   {
-    name: "v-7c6e985c",
-    path: "/blog/vue/piniazhuang-tai-chi-jiu-hua.html",
+    name: "v-203dc9f6",
+    path: "/blog/html-css-js/shu-zu-bian-ping-hua-chang-yong-fang-fa.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c6e985c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-203dc9f6").then(next)
     },
   },
   {
-    path: "/blog/Vue/Pinia状态持久化.html",
-    redirect: "/blog/vue/piniazhuang-tai-chi-jiu-hua.html"
+    path: "/blog/Html & Css & Js/数组扁平化常用方法.html",
+    redirect: "/blog/html-css-js/shu-zu-bian-ping-hua-chang-yong-fang-fa.html"
+  },
+  {
+    name: "v-5f724dae",
+    path: "/blog/html-css-js/shen-ru-li-jie-jszhong-de-this.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5f724dae").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/深入理解Js中的this.html",
+    redirect: "/blog/html-css-js/shen-ru-li-jie-jszhong-de-this.html"
+  },
+  {
+    name: "v-7413473c",
+    path: "/blog/html-css-js/pu-bu-liu-bu-ju.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7413473c").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/瀑布流布局.html",
+    redirect: "/blog/html-css-js/pu-bu-liu-bu-ju.html"
+  },
+  {
+    name: "v-35581622",
+    path: "/blog/html-css-js/lei-shu-zu-dui-xiang-xiang-guan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-35581622").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/类数组对象相关.html",
+    redirect: "/blog/html-css-js/lei-shu-zu-dui-xiang-xiang-guan.html"
+  },
+  {
+    name: "v-e16feb54",
+    path: "/blog/html-css-js/kua-yu-fang-an-zhi-cors.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e16feb54").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/跨域方案之CORS.html",
+    redirect: "/blog/html-css-js/kua-yu-fang-an-zhi-cors.html"
+  },
+  {
+    name: "v-19312e0c",
+    path: "/blog/html-css-js/bi-bao.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-19312e0c").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/闭包.html",
+    redirect: "/blog/html-css-js/bi-bao.html"
+  },
+  {
+    name: "v-5a3e0ad6",
+    path: "/blog/html-css-js/lian-xu-bind-duo-ci-de-jie-guo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5a3e0ad6").then(next)
+    },
+  },
+  {
+    path: "/blog/Html & Css & Js/连续bind()多次的结果.html",
+    redirect: "/blog/html-css-js/lian-xu-bind-duo-ci-de-jie-guo.html"
+  },
+  {
+    name: "v-5d0ebea8",
+    path: "/blog/plugin/gitchang-yong-ming-ling.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d0ebea8").then(next)
+    },
+  },
+  {
+    path: "/blog/Plugin/Git常用命令.html",
+    redirect: "/blog/plugin/gitchang-yong-ming-ling.html"
+  },
+  {
+    name: "v-0a76b07c",
+    path: "/blog/plugin/piniazhuang-tai-chi-jiu-hua.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0a76b07c").then(next)
+    },
+  },
+  {
+    path: "/blog/Plugin/Pinia状态持久化.html",
+    redirect: "/blog/plugin/piniazhuang-tai-chi-jiu-hua.html"
+  },
+  {
+    name: "v-0ddd62f7",
+    path: "/blog/plugin/viteshou-ci-qi-dong-man-he-er-ci-shua-xin-de-wen-ti.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0ddd62f7").then(next)
+    },
+  },
+  {
+    path: "/blog/Plugin/Vite首次启动慢和二次刷新的问题.html",
+    redirect: "/blog/plugin/viteshou-ci-qi-dong-man-he-er-ci-shua-xin-de-wen-ti.html"
+  },
+  {
+    name: "v-5929af1e",
+    path: "/blog/vue/nprogressde-jian-dan-shi-yong.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5929af1e").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/NProgress的简单使用.html",
+    redirect: "/blog/vue/nprogressde-jian-dan-shi-yong.html"
+  },
+  {
+    name: "v-484a3afe",
+    path: "/blog/plugin/valinetu-ran-wu-fa-shi-yong.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-484a3afe").then(next)
+    },
+  },
+  {
+    path: "/blog/Plugin/valine突然无法使用.html",
+    redirect: "/blog/plugin/valinetu-ran-wu-fa-shi-yong.html"
+  },
+  {
+    name: "v-ac41a914",
+    path: "/blog/react/feng-zhuang-antdbiao-dan-zu-jian.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ac41a914").then(next)
+    },
+  },
+  {
+    path: "/blog/React/封装antd表单组件.html",
+    redirect: "/blog/react/feng-zhuang-antdbiao-dan-zu-jian.html"
   },
   {
     name: "v-6d1e11e6",
@@ -177,6 +549,42 @@ export const routes = [
     redirect: "/blog/vue/vue-axioshe-axioschong-fu-yin-ru-bao-cuo.html"
   },
   {
+    name: "v-fce027b8",
+    path: "/blog/vue/vuezhong-de-diffsuan-fa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fce027b8").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/Vue中的diff算法.html",
+    redirect: "/blog/vue/vuezhong-de-diffsuan-fa.html"
+  },
+  {
+    name: "v-1d1598f0",
+    path: "/blog/vue/vue2zhong-tian-jia-xin-shu-xing-jie-mian-bu-shua-xin.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1d1598f0").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/Vue2中添加新属性，界面不刷新.html",
+    redirect: "/blog/vue/vue2zhong-tian-jia-xin-shu-xing-jie-mian-bu-shua-xin.html"
+  },
+  {
+    name: "v-ed6c73f2",
+    path: "/blog/vue/vue2shu-ju-shuang-xiang-bang-ding-yuan-li.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ed6c73f2").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/Vue2数据双向绑定原理.html",
+    redirect: "/blog/vue/vue2shu-ju-shuang-xiang-bang-ding-yuan-li.html"
+  },
+  {
     name: "v-f01b7d46",
     path: "/blog/vue/vuezhong-de-xiu-shi-fu.html",
     component: GlobalLayout,
@@ -187,30 +595,6 @@ export const routes = [
   {
     path: "/blog/Vue/Vue中的修饰符.html",
     redirect: "/blog/vue/vuezhong-de-xiu-shi-fu.html"
-  },
-  {
-    name: "v-67ff6264",
-    path: "/blog/vue/valinetu-ran-wu-fa-shi-yong.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67ff6264").then(next)
-    },
-  },
-  {
-    path: "/blog/Vue/valine突然无法使用.html",
-    redirect: "/blog/vue/valinetu-ran-wu-fa-shi-yong.html"
-  },
-  {
-    name: "v-3ce05c0d",
-    path: "/blog/vue/vuesheng-ming-zhou-qi.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ce05c0d").then(next)
-    },
-  },
-  {
-    path: "/blog/Vue/Vue生命周期.html",
-    redirect: "/blog/vue/vuesheng-ming-zhou-qi.html"
   },
   {
     name: "v-20109c45",
@@ -225,6 +609,54 @@ export const routes = [
     redirect: "/blog/vue/vuezu-jian-zhong-scopedde-yuan-li.html"
   },
   {
+    name: "v-3350d2a6",
+    path: "/blog/vue/vuezu-jian-sheng-ming-zhou-qi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3350d2a6").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/Vue组件生命周期.html",
+    redirect: "/blog/vue/vuezu-jian-sheng-ming-zhou-qi.html"
+  },
+  {
+    name: "v-15cacb96",
+    path: "/blog/vue/shi-me-shi-spa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-15cacb96").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/什么是SPA.html",
+    redirect: "/blog/vue/shi-me-shi-spa.html"
+  },
+  {
+    name: "v-04ff4134",
+    path: "/blog/vue/liang-zhong-jia-gou-mo-shi--mvvc-mvc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04ff4134").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/两种架构模式—MVVC,MVC.html",
+    redirect: "/blog/vue/liang-zhong-jia-gou-mo-shi--mvvc-mvc.html"
+  },
+  {
+    name: "v-5d48c546",
+    path: "/blog/vue/shi-xian-yi-ge-jian-dan-de-fa-bu-ding-yue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d48c546").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue/实现一个简单的发布订阅.html",
+    redirect: "/blog/vue/shi-xian-yi-ge-jian-dan-de-fa-bu-ding-yue.html"
+  },
+  {
     name: "v-a9d9a074",
     path: "/blog/vuexiang-mu-zong-jie/vue-cli3xiang-mu-bu-shu.html",
     component: GlobalLayout,
@@ -235,6 +667,18 @@ export const routes = [
   {
     path: "/blog/Vue项目总结/Vue-CLI3项目部署.html",
     redirect: "/blog/vuexiang-mu-zong-jie/vue-cli3xiang-mu-bu-shu.html"
+  },
+  {
+    name: "v-528af204",
+    path: "/blog/vuexiang-mu-zong-jie/guan-yu-axiosde-content-type.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-528af204").then(next)
+    },
+  },
+  {
+    path: "/blog/Vue项目总结/关于axios的Content-Type.html",
+    redirect: "/blog/vuexiang-mu-zong-jie/guan-yu-axiosde-content-type.html"
   },
   {
     name: "v-34252590",
@@ -249,16 +693,16 @@ export const routes = [
     redirect: "/blog/vuexiang-mu-zong-jie/vuexzhuang-tai-chi-jiu-hua.html"
   },
   {
-    name: "v-ed6c73f2",
-    path: "/blog/vue/vue2shu-ju-shuang-xiang-bang-ding-yuan-li.html",
+    name: "v-554a1303",
+    path: "/blog/vuexiang-mu-zong-jie/li-yong-app.useshi-xian-quan-ju-zu-jian-zhu-ce.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ed6c73f2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-554a1303").then(next)
     },
   },
   {
-    path: "/blog/Vue/Vue2数据双向绑定原理.html",
-    redirect: "/blog/vue/vue2shu-ju-shuang-xiang-bang-ding-yuan-li.html"
+    path: "/blog/Vue项目总结/利用app.use实现全局组件注册.html",
+    redirect: "/blog/vuexiang-mu-zong-jie/li-yong-app.useshi-xian-quan-ju-zu-jian-zhu-ce.html"
   },
   {
     name: "v-0961b9a6",
@@ -369,6 +813,30 @@ export const routes = [
     redirect: "/blog/suan-fa/3de-mi.html"
   },
   {
+    name: "v-4123a99e",
+    path: "/blog/suan-fa/zzi-xing-bian-huan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4123a99e").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/Z字形变换.html",
+    redirect: "/blog/suan-fa/zzi-xing-bian-huan.html"
+  },
+  {
+    name: "v-3d77e95c",
+    path: "/blog/suan-fa/san-shu-zhi-he.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3d77e95c").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/三数之和.html",
+    redirect: "/blog/suan-fa/san-shu-zhi-he.html"
+  },
+  {
     name: "v-4af82604",
     path: "/blog/suan-fa/excelbiao-lie-ming-cheng.html",
     component: GlobalLayout,
@@ -405,16 +873,28 @@ export const routes = [
     redirect: "/blog/suan-fa/diu-shi-de-shu-zi.html"
   },
   {
-    name: "v-5270100f",
-    path: "/blog/suan-fa/liang-ge-shu-zu-de-jiao-ji-ii.html",
+    name: "v-2b60d472",
+    path: "/blog/suan-fa/liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5270100f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2b60d472").then(next)
     },
   },
   {
-    path: "/blog/算法/两个数组的交集 II.html",
-    redirect: "/blog/suan-fa/liang-ge-shu-zu-de-jiao-ji-ii.html"
+    path: "/blog/算法/两两交换链表中的节点.html",
+    redirect: "/blog/suan-fa/liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.html"
+  },
+  {
+    name: "v-e335db6a",
+    path: "/blog/suan-fa/liang-shu-xiang-jia.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e335db6a").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/两数相加.html",
+    redirect: "/blog/suan-fa/liang-shu-xiang-jia.html"
   },
   {
     name: "v-79a918d8",
@@ -429,6 +909,18 @@ export const routes = [
     redirect: "/blog/suan-fa/liang-ge-shu-zu-de-jiao-ji.html"
   },
   {
+    name: "v-5270100f",
+    path: "/blog/suan-fa/liang-ge-shu-zu-de-jiao-ji-ii.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5270100f").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/两个数组的交集 II.html",
+    redirect: "/blog/suan-fa/liang-ge-shu-zu-de-jiao-ji-ii.html"
+  },
+  {
     name: "v-4c37213e",
     path: "/blog/suan-fa/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian.html",
     component: GlobalLayout,
@@ -439,30 +931,6 @@ export const routes = [
   {
     path: "/blog/算法/二叉搜索树的最近公共祖先.html",
     redirect: "/blog/suan-fa/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian.html"
-  },
-  {
-    name: "v-ebce8776",
-    path: "/blog/suan-fa/er-cha-shu-de-suo-you-lu-jing.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ebce8776").then(next)
-    },
-  },
-  {
-    path: "/blog/算法/二叉树的所有路径.html",
-    redirect: "/blog/suan-fa/er-cha-shu-de-suo-you-lu-jing.html"
-  },
-  {
-    name: "v-66aa8114",
-    path: "/blog/suan-fa/shan-chu-pai-xu-lian-biao-zhong-de-chong-fu-yuan-su.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-66aa8114").then(next)
-    },
-  },
-  {
-    path: "/blog/算法/删除排序链表中的重复元素.html",
-    redirect: "/blog/suan-fa/shan-chu-pai-xu-lian-biao-zhong-de-chong-fu-yuan-su.html"
   },
   {
     name: "v-71d5db69",
@@ -477,6 +945,18 @@ export const routes = [
     redirect: "/blog/suan-fa/wei-1de-ge-shu.html"
   },
   {
+    name: "v-66aa8114",
+    path: "/blog/suan-fa/shan-chu-pai-xu-lian-biao-zhong-de-chong-fu-yuan-su.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-66aa8114").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/删除排序链表中的重复元素.html",
+    redirect: "/blog/suan-fa/shan-chu-pai-xu-lian-biao-zhong-de-chong-fu-yuan-su.html"
+  },
+  {
     name: "v-85648252",
     path: "/blog/suan-fa/shan-chu-lian-biao-zhong-de-jie-dian.html",
     component: GlobalLayout,
@@ -487,6 +967,30 @@ export const routes = [
   {
     path: "/blog/算法/删除链表中的节点.html",
     redirect: "/blog/suan-fa/shan-chu-lian-biao-zhong-de-jie-dian.html"
+  },
+  {
+    name: "v-ebce8776",
+    path: "/blog/suan-fa/er-cha-shu-de-suo-you-lu-jing.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ebce8776").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/二叉树的所有路径.html",
+    redirect: "/blog/suan-fa/er-cha-shu-de-suo-you-lu-jing.html"
+  },
+  {
+    name: "v-07ca1c60",
+    path: "/blog/suan-fa/pan-duan-zi-xu-lie.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-07ca1c60").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/判断子序列.html",
+    redirect: "/blog/suan-fa/pan-duan-zi-xu-lie.html"
   },
   {
     name: "v-7ba85492",
@@ -501,18 +1005,6 @@ export const routes = [
     redirect: "/blog/suan-fa/jia-yi.html"
   },
   {
-    name: "v-63a96fe4",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-63a96fe4").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-0a1a8614",
     path: "/blog/suan-fa/dan-ci-gui-lu.html",
     component: GlobalLayout,
@@ -525,18 +1017,6 @@ export const routes = [
     redirect: "/blog/suan-fa/dan-ci-gui-lu.html"
   },
   {
-    name: "v-70160a9a",
-    path: "/blog/suan-fa/fan-zhuan-zi-fu-chuan.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-70160a9a").then(next)
-    },
-  },
-  {
-    path: "/blog/算法/反转字符串.html",
-    redirect: "/blog/suan-fa/fan-zhuan-zi-fu-chuan.html"
-  },
-  {
     name: "v-1ee16276",
     path: "/blog/suan-fa/fan-zhuan-zi-fu-chuan-zhong-de-yuan-yin-zi-mu.html",
     component: GlobalLayout,
@@ -547,6 +1027,18 @@ export const routes = [
   {
     path: "/blog/算法/反转字符串中的元音字母.html",
     redirect: "/blog/suan-fa/fan-zhuan-zi-fu-chuan-zhong-de-yuan-yin-zi-mu.html"
+  },
+  {
+    name: "v-70160a9a",
+    path: "/blog/suan-fa/fan-zhuan-zi-fu-chuan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-70160a9a").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/反转字符串.html",
+    redirect: "/blog/suan-fa/fan-zhuan-zi-fu-chuan.html"
   },
   {
     name: "v-a54e1fd2",
@@ -573,6 +1065,18 @@ export const routes = [
     redirect: "/blog/suan-fa/ge-wei-xiang-jia.html"
   },
   {
+    name: "v-4308e91c",
+    path: "/blog/suan-fa/he-bing-liang-ge-you-xu-shu-zu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4308e91c").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/合并两个有序数组.html",
+    redirect: "/blog/suan-fa/he-bing-liang-ge-you-xu-shu-zu.html"
+  },
+  {
     name: "v-63744e99",
     path: "/blog/suan-fa/tong-gou-zi-fu-chuan.html",
     component: GlobalLayout,
@@ -583,6 +1087,18 @@ export const routes = [
   {
     path: "/blog/算法/同构字符串.html",
     redirect: "/blog/suan-fa/tong-gou-zi-fu-chuan.html"
+  },
+  {
+    name: "v-c232b4a4",
+    path: "/blog/suan-fa/he-bing-kge-sheng-xu-lian-biao.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c232b4a4").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/合并K个升序链表.html",
+    redirect: "/blog/suan-fa/he-bing-kge-sheng-xu-lian-biao.html"
   },
   {
     name: "v-3a8246bd",
@@ -597,16 +1113,16 @@ export const routes = [
     redirect: "/blog/suan-fa/hui-wen-lian-biao.html"
   },
   {
-    name: "v-4308e91c",
-    path: "/blog/suan-fa/he-bing-liang-ge-you-xu-shu-zu.html",
+    name: "v-30bb8bc4",
+    path: "/blog/suan-fa/si-shu-zhi-he.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4308e91c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-30bb8bc4").then(next)
     },
   },
   {
-    path: "/blog/算法/合并两个有序数组.html",
-    redirect: "/blog/suan-fa/he-bing-liang-ge-you-xu-shu-zu.html"
+    path: "/blog/算法/四数之和.html",
+    redirect: "/blog/suan-fa/si-shu-zhi-he.html"
   },
   {
     name: "v-ca1cd68a",
@@ -621,16 +1137,28 @@ export const routes = [
     redirect: "/blog/suan-fa/duo-shu-yuan-su.html"
   },
   {
-    name: "v-856460f4",
-    path: "/blog/suan-fa/cun-zai-chong-fu-yuan-su.html",
+    name: "v-5153eec2",
+    path: "/blog/suan-fa/zi-fu-chuan-zhong-de-di-yi-ge-wei-yi-zi-fu.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-856460f4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5153eec2").then(next)
     },
   },
   {
-    path: "/blog/算法/存在重复元素.html",
-    redirect: "/blog/suan-fa/cun-zai-chong-fu-yuan-su.html"
+    path: "/blog/算法/字符串中的第一个唯一字符.html",
+    redirect: "/blog/suan-fa/zi-fu-chuan-zhong-de-di-yi-ge-wei-yi-zi-fu.html"
+  },
+  {
+    name: "v-28da82be",
+    path: "/blog/suan-fa/zi-fu-chuan-huan-zhuan-zheng-shu-atoi-.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-28da82be").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/字符串换转整数(atoi).html",
+    redirect: "/blog/suan-fa/zi-fu-chuan-huan-zhuan-zheng-shu-atoi-.html"
   },
   {
     name: "v-59820d74",
@@ -645,6 +1173,18 @@ export const routes = [
     redirect: "/blog/suan-fa/cun-zai-chong-fu-yuan-su-ii.html"
   },
   {
+    name: "v-856460f4",
+    path: "/blog/suan-fa/cun-zai-chong-fu-yuan-su.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-856460f4").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/存在重复元素.html",
+    redirect: "/blog/suan-fa/cun-zai-chong-fu-yuan-su.html"
+  },
+  {
     name: "v-4feab1f3",
     path: "/blog/suan-fa/dui-cheng-er-cha-shu.html",
     component: GlobalLayout,
@@ -657,6 +1197,18 @@ export const routes = [
     redirect: "/blog/suan-fa/dui-cheng-er-cha-shu.html"
   },
   {
+    name: "v-14f381ea",
+    path: "/blog/suan-fa/zuo-zi-ye-zhi-he.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-14f381ea").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/左子叶之和.html",
+    redirect: "/blog/suan-fa/zuo-zi-ye-zhi-he.html"
+  },
+  {
     name: "v-b4e47eec",
     path: "/blog/suan-fa/kuai-le-shu.html",
     component: GlobalLayout,
@@ -667,6 +1219,42 @@ export const routes = [
   {
     path: "/blog/算法/快乐数.html",
     redirect: "/blog/suan-fa/kuai-le-shu.html"
+  },
+  {
+    name: "v-0f66e6d9",
+    path: "/blog/suan-fa/xun-zhao-liang-ge-zheng-xu-shu-zu-de-zhong-wei-shu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0f66e6d9").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/寻找两个正序数组的中位数.html",
+    redirect: "/blog/suan-fa/xun-zhao-liang-ge-zheng-xu-shu-zu-de-zhong-wei-shu.html"
+  },
+  {
+    name: "v-c60716c2",
+    path: "/blog/suan-fa/gua-hao-sheng-cheng.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c60716c2").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/括号生成.html",
+    redirect: "/blog/suan-fa/gua-hao-sheng-cheng.html"
+  },
+  {
+    name: "v-51e688ea",
+    path: "/blog/suan-fa/zhao-bu-tong.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-51e688ea").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/找不同.html",
+    redirect: "/blog/suan-fa/zhao-bu-tong.html"
   },
   {
     name: "v-4cfd4fd2",
@@ -693,6 +1281,18 @@ export const routes = [
     redirect: "/blog/suan-fa/sou-suo-cha-ru-wei-zhi.html"
   },
   {
+    name: "v-6e237f91",
+    path: "/blog/suan-fa/zheng-shu-fan-zhuan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e237f91").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/整数反转.html",
+    redirect: "/blog/suan-fa/zheng-shu-fan-zhuan.html"
+  },
+  {
     name: "v-48453ccf",
     path: "/blog/suan-fa/fang-ping-guo-fei-chang-nan-nu.html",
     component: GlobalLayout,
@@ -703,6 +1303,18 @@ export const routes = [
   {
     path: "/blog/算法/放苹果 & 非常男女.html",
     redirect: "/blog/suan-fa/fang-ping-guo-fei-chang-nan-nu.html"
+  },
+  {
+    name: "v-1779da13",
+    path: "/blog/suan-fa/wu-chong-fu-zi-fu-de-zui-chang-zi-chuan.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1779da13").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/无重复字符的最长子串.html",
+    redirect: "/blog/suan-fa/wu-chong-fu-zi-fu-de-zui-chang-zi-chuan.html"
   },
   {
     name: "v-4dbb11d4",
@@ -717,16 +1329,16 @@ export const routes = [
     redirect: "/blog/suan-fa/zui-hou-yi-ge-dan-ci-de-chang-du.html"
   },
   {
-    name: "v-584592a9",
-    path: "/blog/suan-fa/you-xiao-de-gua-hao.html",
+    name: "v-2230a43e",
+    path: "/blog/suan-fa/zui-chang-hui-wen-chuan.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-584592a9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2230a43e").then(next)
     },
   },
   {
-    path: "/blog/算法/有效的括号.html",
-    redirect: "/blog/suan-fa/you-xiao-de-gua-hao.html"
+    path: "/blog/算法/最长回文串.html",
+    redirect: "/blog/suan-fa/zui-chang-hui-wen-chuan.html"
   },
   {
     name: "v-283a98e8",
@@ -741,28 +1353,28 @@ export const routes = [
     redirect: "/blog/suan-fa/zui-xiao-zhan.html"
   },
   {
-    name: "v-75005f83",
-    path: "/blog/suan-fa/hui-zong-qu-jian.html",
+    name: "v-2cd215cc",
+    path: "/blog/suan-fa/zui-jie-jin-de-san-shu-zhi-he.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-75005f83").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2cd215cc").then(next)
     },
   },
   {
-    path: "/blog/算法/汇总区间.html",
-    redirect: "/blog/suan-fa/hui-zong-qu-jian.html"
+    path: "/blog/算法/最接近的三数之和.html",
+    redirect: "/blog/suan-fa/zui-jie-jin-de-san-shu-zhi-he.html"
   },
   {
-    name: "v-6e10dc3b",
-    path: "/blog/suan-fa/bi-te-wei-ji-shu.html",
+    name: "v-f03c6f7e",
+    path: "/blog/suan-fa/zui-chang-hui-wen-zi-chuan.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e10dc3b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f03c6f7e").then(next)
     },
   },
   {
-    path: "/blog/算法/比特位计数.html",
-    redirect: "/blog/suan-fa/bi-te-wei-ji-shu.html"
+    path: "/blog/算法/最长回文子串.html",
+    redirect: "/blog/suan-fa/zui-chang-hui-wen-zi-chuan.html"
   },
   {
     name: "v-1d37c27c",
@@ -777,6 +1389,18 @@ export const routes = [
     redirect: "/blog/suan-fa/you-xiao-de-zi-mu-yi-wei-ci.html"
   },
   {
+    name: "v-74714a2e",
+    path: "/blog/suan-fa/you-xiao-de-wan-quan-ping-fang-shu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-74714a2e").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/有效的完全平方数.html",
+    redirect: "/blog/suan-fa/you-xiao-de-wan-quan-ping-fang-shu.html"
+  },
+  {
     name: "v-121af895",
     path: "/blog/suan-fa/cai-shu-zi-da-xiao.html",
     component: GlobalLayout,
@@ -787,6 +1411,42 @@ export const routes = [
   {
     path: "/blog/算法/猜数字大小.html",
     redirect: "/blog/suan-fa/cai-shu-zi-da-xiao.html"
+  },
+  {
+    name: "v-584592a9",
+    path: "/blog/suan-fa/you-xiao-de-gua-hao.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-584592a9").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/有效的括号.html",
+    redirect: "/blog/suan-fa/you-xiao-de-gua-hao.html"
+  },
+  {
+    name: "v-6e10dc3b",
+    path: "/blog/suan-fa/bi-te-wei-ji-shu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e10dc3b").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/比特位计数.html",
+    redirect: "/blog/suan-fa/bi-te-wei-ji-shu.html"
+  },
+  {
+    name: "v-75005f83",
+    path: "/blog/suan-fa/hui-zong-qu-jian.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-75005f83").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/汇总区间.html",
+    redirect: "/blog/suan-fa/hui-zong-qu-jian.html"
   },
   {
     name: "v-0828a95e",
@@ -801,16 +1461,28 @@ export const routes = [
     redirect: "/blog/suan-fa/huan-xing-lian-biao.html"
   },
   {
-    name: "v-74714a2e",
-    path: "/blog/suan-fa/you-xiao-de-wan-quan-ping-fang-shu.html",
+    name: "v-60478002",
+    path: "/blog/suan-fa/dian-hua-hao-ma-de-zi-mu-zu-he.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-74714a2e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-60478002").then(next)
     },
   },
   {
-    path: "/blog/算法/有效的完全平方数.html",
-    redirect: "/blog/suan-fa/you-xiao-de-wan-quan-ping-fang-shu.html"
+    path: "/blog/算法/电话号码的字母组合.html",
+    redirect: "/blog/suan-fa/dian-hua-hao-ma-de-zi-mu-zu-he.html"
+  },
+  {
+    name: "v-51ec3e42",
+    path: "/blog/suan-fa/sheng-shui-zui-duo-de-rong-qi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-51ec3e42").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/盛水最多的容器.html",
+    redirect: "/blog/suan-fa/sheng-shui-zui-duo-de-rong-qi.html"
   },
   {
     name: "v-2e09eeaa",
@@ -837,18 +1509,6 @@ export const routes = [
     redirect: "/blog/suan-fa/xiang-jiao-lian-biao.html"
   },
   {
-    name: "v-6422ec2c",
-    path: "/blog/suan-fa/yi-dong-ling.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6422ec2c").then(next)
-    },
-  },
-  {
-    path: "/blog/算法/移动零.html",
-    redirect: "/blog/suan-fa/yi-dong-ling.html"
-  },
-  {
     name: "v-314d5cd4",
     path: "/blog/suan-fa/yi-chu-yuan-su-lian-biao.html",
     component: GlobalLayout,
@@ -859,18 +1519,6 @@ export const routes = [
   {
     path: "/blog/算法/移除元素链表.html",
     redirect: "/blog/suan-fa/yi-chu-yuan-su-lian-biao.html"
-  },
-  {
-    name: "v-2f55a787",
-    path: "/blog/suan-fa/di-yi-ge-cuo-wu-de-ban-ben.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f55a787").then(next)
-    },
-  },
-  {
-    path: "/blog/算法/第一个错误的版本.html",
-    redirect: "/blog/suan-fa/di-yi-ge-cuo-wu-de-ban-ben.html"
   },
   {
     name: "v-faf9fb14",
@@ -885,6 +1533,30 @@ export const routes = [
     redirect: "/blog/suan-fa/fan-zhuan-er-cha-shu.html"
   },
   {
+    name: "v-6422ec2c",
+    path: "/blog/suan-fa/yi-dong-ling.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6422ec2c").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/移动零.html",
+    redirect: "/blog/suan-fa/yi-dong-ling.html"
+  },
+  {
+    name: "v-2f55a787",
+    path: "/blog/suan-fa/di-yi-ge-cuo-wu-de-ban-ben.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2f55a787").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/第一个错误的版本.html",
+    redirect: "/blog/suan-fa/di-yi-ge-cuo-wu-de-ban-ben.html"
+  },
+  {
     name: "v-3f1a5e04",
     path: "/blog/suan-fa/dian-dao-er-jin-zhi-wei.html",
     component: GlobalLayout,
@@ -897,6 +1569,18 @@ export const routes = [
     redirect: "/blog/suan-fa/dian-dao-er-jin-zhi-wei.html"
   },
   {
+    name: "v-2ca75b1e",
+    path: "/blog/suan-fa/shu-jin-xin-shi-fou-neng-gou-cheng-zi-chuan-.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2ca75b1e").then(next)
+    },
+  },
+  {
+    path: "/blog/算法/赎金信(是否能构成子串).html",
+    redirect: "/blog/suan-fa/shu-jin-xin-shi-fou-neng-gou-cheng-zi-chuan-.html"
+  },
+  {
     name: "v-28c35f73",
     path: "/blog/suan-fa/yan-zheng-hui-wen-chuan.html",
     component: GlobalLayout,
@@ -907,6 +1591,94 @@ export const routes = [
   {
     path: "/blog/算法/验证回文串.html",
     redirect: "/blog/suan-fa/yan-zheng-hui-wen-chuan.html"
+  },
+  {
+    name: "v-2efdc9c4",
+    path: "/blog/ji-suan-ji-wang-luo/http1.0-1.1-2.0zhu-yao-qu-bie.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2efdc9c4").then(next)
+    },
+  },
+  {
+    path: "/blog/计算机网络/HTTP1.0&1.1&2.0主要区别.html",
+    redirect: "/blog/ji-suan-ji-wang-luo/http1.0-1.1-2.0zhu-yao-qu-bie.html"
+  },
+  {
+    name: "v-4d3fdde0",
+    path: "/blog/ji-suan-ji-wang-luo/packet-tracermo-ni-yi-ci-jian-dan-de-httpqing-qiu.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4d3fdde0").then(next)
+    },
+  },
+  {
+    path: "/blog/计算机网络/Packet Tracer模拟一次简单的HTTP请求.html",
+    redirect: "/blog/ji-suan-ji-wang-luo/packet-tracermo-ni-yi-ci-jian-dan-de-httpqing-qiu.html"
+  },
+  {
+    name: "v-17e39203",
+    path: "/blog/ji-suan-ji-wang-luo/tcphe-udp.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-17e39203").then(next)
+    },
+  },
+  {
+    path: "/blog/计算机网络/TCP和UDP.html",
+    redirect: "/blog/ji-suan-ji-wang-luo/tcphe-udp.html"
+  },
+  {
+    name: "v-a1562e70",
+    path: "/blog/ji-suan-ji-wang-luo/tcpsan-ci-wo-shou-he-si-ci-hui-shou-de-guo-cheng.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a1562e70").then(next)
+    },
+  },
+  {
+    path: "/blog/计算机网络/TCP三次握手和四次挥手的过程.html",
+    redirect: "/blog/ji-suan-ji-wang-luo/tcpsan-ci-wo-shou-he-si-ci-hui-shou-de-guo-cheng.html"
+  },
+  {
+    name: "v-3ecaa567",
+    path: "/blog/ji-suan-ji-wang-luo/qiang-huan-cun-yu-xie-shang-huan-cun.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3ecaa567").then(next)
+    },
+  },
+  {
+    path: "/blog/计算机网络/强缓存与协商缓存.html",
+    redirect: "/blog/ji-suan-ji-wang-luo/qiang-huan-cun-yu-xie-shang-huan-cun.html"
+  },
+  {
+    name: "v-63a96fe4",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-63a96fe4").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-bc6b7732",
+    path: "/myresume/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-bc6b7732").then(next)
+    },
+  },
+  {
+    path: "/myresume/index.html",
+    redirect: "/myresume/"
+  },
+  {
+    path: "/myResume/",
+    redirect: "/myresume/"
   },
   {
     name: "v-52a316b2",
@@ -986,19 +1758,6 @@ export const routes = [
     redirect: "/tag/javascript/"
   },
   {
-    name: "v-32475d9a",
-    path: "/tag/Vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32475d9a").then(next)
-    },
-    meta: {"pid":"tags","id":"Vue"}
-  },
-  {
-    path: "/tag/Vue/index.html",
-    redirect: "/tag/Vue/"
-  },
-  {
     name: "v-0c5c4c5e",
     path: "/tag/浏览器/",
     component: GlobalLayout,
@@ -1012,17 +1771,17 @@ export const routes = [
     redirect: "/tag/浏览器/"
   },
   {
-    name: "v-4c2c8940",
-    path: "/tag/typescript/",
+    name: "v-32475d9a",
+    path: "/tag/Vue/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-4c2c8940").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-32475d9a").then(next)
     },
-    meta: {"pid":"tags","id":"typescript"}
+    meta: {"pid":"tags","id":"Vue"}
   },
   {
-    path: "/tag/typescript/index.html",
-    redirect: "/tag/typescript/"
+    path: "/tag/Vue/index.html",
+    redirect: "/tag/Vue/"
   },
   {
     name: "v-322a45da",
@@ -1155,6 +1914,19 @@ export const routes = [
     redirect: "/categories/Html & Css & Js/"
   },
   {
+    name: "v-4267445e",
+    path: "/categories/Plugin/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-4267445e").then(next)
+    },
+    meta: {"pid":"categories","id":"Plugin"}
+  },
+  {
+    path: "/categories/Plugin/index.html",
+    redirect: "/categories/Plugin/"
+  },
+  {
     name: "v-7f0789a7",
     path: "/categories/Vue/",
     component: GlobalLayout,
@@ -1166,6 +1938,19 @@ export const routes = [
   {
     path: "/categories/Vue/index.html",
     redirect: "/categories/Vue/"
+  },
+  {
+    name: "v-58d43d64",
+    path: "/categories/React/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-58d43d64").then(next)
+    },
+    meta: {"pid":"categories","id":"React"}
+  },
+  {
+    path: "/categories/React/index.html",
+    redirect: "/categories/React/"
   },
   {
     name: "v-0e52b982",
@@ -1207,6 +1992,19 @@ export const routes = [
     redirect: "/categories/算法/"
   },
   {
+    name: "v-6f35f49b",
+    path: "/categories/计算机网络/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-6f35f49b").then(next)
+    },
+    meta: {"pid":"categories","id":"计算机网络"}
+  },
+  {
+    path: "/categories/计算机网络/index.html",
+    redirect: "/categories/计算机网络/"
+  },
+  {
     name: "v-69ad5dcb",
     path: "/categories/Html & Css & Js/page/2/",
     component: GlobalLayout,
@@ -1218,6 +2016,32 @@ export const routes = [
   {
     path: "/categories/Html & Css & Js/page/2/index.html",
     redirect: "/categories/Html & Css & Js/page/2/"
+  },
+  {
+    name: "v-69ad5dea",
+    path: "/categories/Html & Css & Js/page/3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-69ad5dea").then(next)
+    },
+    meta: {"pid":"categories","id":"Html & Css & Js"}
+  },
+  {
+    path: "/categories/Html & Css & Js/page/3/index.html",
+    redirect: "/categories/Html & Css & Js/page/3/"
+  },
+  {
+    name: "v-69ad5e09",
+    path: "/categories/Html & Css & Js/page/4/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-69ad5e09").then(next)
+    },
+    meta: {"pid":"categories","id":"Html & Css & Js"}
+  },
+  {
+    path: "/categories/Html & Css & Js/page/4/index.html",
+    redirect: "/categories/Html & Css & Js/page/4/"
   },
   {
     name: "v-a0f5f208",
@@ -1270,6 +2094,32 @@ export const routes = [
   {
     path: "/categories/算法/page/5/index.html",
     redirect: "/categories/算法/page/5/"
+  },
+  {
+    name: "v-a0f5f110",
+    path: "/categories/算法/page/6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a0f5f110").then(next)
+    },
+    meta: {"pid":"categories","id":"算法"}
+  },
+  {
+    path: "/categories/算法/page/6/index.html",
+    redirect: "/categories/算法/page/6/"
+  },
+  {
+    name: "v-a0f5f0d2",
+    path: "/categories/算法/page/7/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a0f5f0d2").then(next)
+    },
+    meta: {"pid":"categories","id":"算法"}
+  },
+  {
+    path: "/categories/算法/page/7/index.html",
+    redirect: "/categories/算法/page/7/"
   },
   {
     path: '*',

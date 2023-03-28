@@ -1,10 +1,10 @@
 // 不要忘了安装 moment
 const moment = require('moment')
-const {valineConfig} = require('../../secret')
+const { valineConfig } = require('../../secret')
 module.exports = {
     theme: 'reco',
     title: '南山以南',
-    description: '把希望全都寄托于别人是最危险的行为',
+    description: '目标是太阳,就不必留恋萤火之光',
     head: [
         // 移动端优化
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -21,7 +21,6 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }]
     ],
     themeConfig: {
-        // subSidebar: 'auto',
         lastUpdated: '更新时间',
         logo: '/assets/img/logo.png',
         type: 'blog',
@@ -45,18 +44,19 @@ module.exports = {
                 ]
             },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-            { text: '留言板', link: '/messageboard/', icon: 'reco-suggestion' },
             {
                 text: '关于我', link: '/about',
                 items: [
                     {
-                        text: '我的经历', link: '',
+                        text: '个人简历', link: '/myresume/', icon: 'reco-lock'
                     },
                     {
-                        text: '个人简历', link: ''
+                        text: '我的经历', link: '',icon: 'reco-account'
                     }
                 ]
             },
+            { text: '留言板', link: '/messageboard/', icon: 'reco-suggestion' },
+
             { text: '其他', link: '', icon: 'reco-other' },
         ],
         // 设置昵称
@@ -79,10 +79,10 @@ module.exports = {
             },
             socialLinks: [     // 信息栏展示社交信息
                 {
-                    icon: 'reco-mayun',link:'https://gitee.com/Ocean0128'
+                    icon: 'reco-mayun', link: 'https://gitee.com/Ocean0128'
                 },
                 {
-                    icon:'reco-github',link:'https://github.com/Ocean-H1'
+                    icon: 'reco-github', link: 'https://github.com/Ocean-H1'
                 }
             ]
         },
@@ -99,7 +99,6 @@ module.exports = {
         "@vuepress-reco/vuepress-plugin-loading-page": {},
         // 自动生成侧边栏
         "vuepress-plugin-auto-sidebar": {
-            sidebarDepth: 2,
             collapse: {
                 open: true,
             },
@@ -108,7 +107,7 @@ module.exports = {
         // "sakura": {
         //     "num": 15,  // 默认数量
         //     "show": true, //  是否显示
-        //     "zIndex": -1,   // 层级
+        //     "zIndex": 0,   // 层级
         //     "img": {
         //         "replace": false,  // false 默认图 true 换图 需要填写httpUrl地址
         //         "httpUrl": '...'     // 绝对路径
