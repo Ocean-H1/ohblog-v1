@@ -51,7 +51,7 @@ module.exports = {
                         text: '个人简历', link: '/myresume/', icon: 'reco-lock'
                     },
                     {
-                        text: '我的经历', link: '',icon: 'reco-account'
+                        text: '我的经历', link: '', icon: 'reco-account'
                     }
                 ]
             },
@@ -65,7 +65,11 @@ module.exports = {
         authorAvatar: '/assets/img/avatar.gif',
         // 友情链接
         friendLink: [
-            // ...
+            {
+                title: 'Cai.',
+                desc: 'Enjoy when you can, and endure when you must.',
+                link: 'https://www.awesomeboy.cn/'
+            },
         ],
         // 博客设置
         blogConfig: {
