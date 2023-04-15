@@ -1,5 +1,7 @@
 # 敏感信息
 secret.js
+# 临时文件
+.temp
 # 博客
 docs/blog/
 # Logs
