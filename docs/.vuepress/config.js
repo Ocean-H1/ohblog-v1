@@ -62,7 +62,7 @@ module.exports = {
         // 设置昵称
         author: "OceanH",
         // 设置首页右侧信息栏头像
-        authorAvatar: '/assets/img/avatar.gif',
+        authorAvatar: '/assets/img/avatar.png',
         // 友情链接
         friendLink: [
             {
