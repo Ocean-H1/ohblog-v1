@@ -3,7 +3,7 @@ secret.js
 # 临时文件
 .temp
 # 博客
-docs/blog/
+# docs/blog/
 # Logs
 logs
 *.log
