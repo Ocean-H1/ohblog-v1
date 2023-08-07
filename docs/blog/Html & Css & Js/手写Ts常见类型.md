@@ -80,8 +80,6 @@ type myRequired<T> = {
 };
 ```
 
-::: info
 原文作者：阳树阳树
 
-原文链接：https://juejin.cn/post/7239296984984862781
-:::
+原文链接：[常考 TS 手写--妈妈再也不用担心我的 TS 了](https://juejin.cn/post/7239296984984862781)
