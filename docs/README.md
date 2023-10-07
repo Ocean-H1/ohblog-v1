@@ -10,11 +10,12 @@ tagline: 目标是太阳,就不必留恋萤火之光
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImage: /assets/img/bg01.png
+bgImage: /assets/img/bg-wuzhi.jpg
 # bgImageStyle: {
 #   height: '95vh'
 # }
 ---
+
 <style>
 .anchor-down {
   display: block;
