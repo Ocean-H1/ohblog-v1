@@ -83,7 +83,7 @@ const plugins = {
     meting: {
       auto: 'https://music.163.com/#/playlist?id=7324368135', //歌单地址
       server: "netease", // netease:网易云，tencent:qq音乐，xiami:虾米音乐
-      type: "palylist",
+      type: "playlist",
       mid: "7324368135",//歌单或音乐id
     },
     aplayer: {
@@ -119,7 +119,7 @@ const plugins = {
       {
         type: 'title',
         content: '欢迎加我的QQ/Vx一起交流学习 🎉🎉',
-        style: 'text-aligin: center;',
+        style: 'text-align: center;',
       },
       {
         type: 'text',
@@ -134,6 +134,7 @@ const plugins = {
       {
         type: 'image',
         src: '/assets/img/weChat.jpg',
+        style: 'width: 100%;'
       },
       {
         type: 'text',

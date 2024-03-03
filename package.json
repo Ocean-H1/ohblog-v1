@@ -26,7 +26,7 @@
     "vuepress-plugin-sakura": "^1.1.0"
   },
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.16",
     "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
     "moment": "^2.29.1",
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
