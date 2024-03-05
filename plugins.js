@@ -150,6 +150,10 @@ const plugins = {
       }
     ]
 
+  },
+  // 谷歌分析插件
+  '@vuepress/google-analytics': {
+    'ga': 'G-LJCEK2R37J'
   }
 };
 
