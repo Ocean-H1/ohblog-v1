@@ -38,6 +38,19 @@ module.exports = {
         s.parentNode.insertBefore(hm, s);
       })(); 
       `
+    ],
+    // Google Analytics
+    [
+      'script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-VT93S8T58B' }
+    ],
+    [
+      'script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-VT93S8T58B');
+      `
     ]
   ],
   themeConfig: {
