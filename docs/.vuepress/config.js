@@ -26,7 +26,19 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-    ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }]
+    ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }],
+    // 百度分析
+    [
+      'script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2b0f52427ccfc446eb6912b5b6a40f5c";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })(); 
+      `
+    ]
   ],
   themeConfig: {
     lastUpdated: '更新时间',
