@@ -153,7 +153,7 @@ const plugins = {
   },
   // 谷歌分析插件
   '@vuepress/google-analytics': {
-    'ga': 'G-LJCEK2R37J'
+    'ga': 'G-VT93S8T58B'
   }
 };
 
