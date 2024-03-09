@@ -3,7 +3,7 @@ title: Leetcode->Excel表列名称
 categories: 
  - 算法
 date: 2022-06-18
-cover: 'https://zihonghuang.gitee.io/image/leetcode.jpg'
+cover: 'https://fastly.jsdelivr.net/gh/Ocean-H1/blog_image_bed/leetcode.png'
 isShowComments: false
 
 ---

@@ -3,7 +3,7 @@ title: Leetcode->Z 字形变换
 categories: 
  - 算法
 date: 2022-08-12
-cover: 'https://zihonghuang.gitee.io/image/leetcode.jpg'
+cover: 'https://fastly.jsdelivr.net/gh/Ocean-H1/blog_image_bed/leetcode.png'
 isShowComments: false
 ---
 
