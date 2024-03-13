@@ -1,0 +1,46 @@
+/* 添加格子背景 */
+#app .page {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.page {
+    padding-bottom: 2rem;
+    display: block;
+}
+/* 添加mac风格代码块 */
+pre::before {
+    content: " ";
+    border-radius: 50%;
+    background: #b300eb;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 6px;
+    -webkit-box-shadow: 20px 0 #fcd019, 40px 0 #ff4742;
+    box-shadow: 20px 0 #fcd019, 40px 0 #ff4742;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  overflow-wrap: break-word;
+}
+h1 {
+  font-size: 2.2rem !important;
+}
+h2 {
+  font-size: 1.65rem !important;
+}
+h3 {
+  font-size: 1.35rem !important;
+}
+.page .theme-reco-content h2::before {
+  height: 2.2rem !important;
+}
+.custom-block.tip {
+  border-color: #747bff !important;
+  background-color: #f3f5f7 !important;
+}
